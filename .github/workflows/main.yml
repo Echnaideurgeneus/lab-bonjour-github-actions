@@ -1,5 +1,6 @@
 name: Un flux de taches pour mon fichier Bonjour Monde
 on: push
+jobs
   build:
     name: Action Bonjour Monde
     runs-on: ubuntu-latest
@@ -8,3 +9,5 @@ on: push
       - uses: ./action-a
         with:
           MON_NOM: "Mona"
+
+
